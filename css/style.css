@@ -1,0 +1,151 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 50px;
+    overflow-x: hidden !important;
+}
+.navbarActive{
+  color:  #007FFF !important;
+  font-weight: 500;
+}
+
+.navbarText{
+  color: #000000 !important;
+  font-weight: 500;
+}
+.badgeLink:hover{
+    color: white !important;
+}
+a:hover{
+ text-decoration: underline !important;
+}
+.textPrimary{
+  color:  #007FFF !important;
+}
+.bgSecondary{
+    background-color:#44A1FF !important;
+}
+.textSecondary{
+	color:#44A1FF !important;
+}
+.themeFontExtraLight{
+  font-weight: 200;
+}
+.themeFontLight{
+  font-weight: 300;
+}
+
+.themeFontRegular{
+  font-weight: 400;
+}
+
+.themeFontMedium{
+font-weight: 500;
+}
+
+.themeFontBold{
+  font-weight: 600;
+}
+.themeFontExtraBold{
+  font-weight: 700;
+}
+.hr{
+  width: 50px;
+  height: 5px;
+  background-color: #007FFF !important;
+  margin: 0;
+}
+.whoWeArebg{
+  background-color: #f5f5f5;
+}
+.styleCarousel{
+  background-color: #eff5fb;
+}
+.cardGrroming{
+  border: 3px solid #007FFF ;
+  border-radius: 3px;
+}
+@media screen and (min-width:770px) {
+  .bookNowBtn1{
+    position: absolute;
+     z-index: +1;
+     top:300px;
+     align-self: center;
+     background-color: white;
+     padding: 0.7rem;
+  }
+  .bookNowBtn2{
+    position: absolute;
+     z-index: +1;
+     top:315px;
+     left:100px;
+     background-color: white;
+     border-radius: 3px;
+  }
+
+}
+.emailLabel{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+.textSecondary{
+  color: #007FFF;
+}
+.cardBodyColor{
+  background-color: #CCE5FF;
+}
+.imgCard{
+  height: 150px;
+}
+#logout:hover{
+	text-decoration: underline;
+}
+.quantityCart{
+	background-color: #CCE5FF;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	border-radius: 15px;
+}
+.textSmall{
+	font-size: 15px;
+}
+
+.button:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}
+.embed{
+  padding-right: 15rem;
+  padding-left: 15rem;
+  padding-top: 1rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: .2rem;
+}
+.embed-nutri{
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: .2rem;
+}
+.filter{
+  
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+.order-successfull-center{
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
